@@ -1,0 +1,36 @@
+# Python dependencies for backend
+fastapi
+uvicorn
+langchain
+langchain-text-splitters
+chromadb
+neo4j
+openai
+pypdf2
+sentence-transformers
+python-dotenv
+pathlib
+
+# RAG Pipeline Requirements
+# Add these to your requirements.txt
+
+# Core LangChain
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+
+# OpenAI support
+langchain-openai>=0.0.5
+openai>=1.0.0
+
+# Ollama support (included in langchain-community)
+
+# Additional utilities
+python-dotenv>=1.0.0
+
+# UI Requirements
+streamlit>=1.47.0
+pandas>=2.0.0
+requests>=2.31.0
+altair>=5.0.0  # For charts in streamlit
+plotly>=5.0.0  # Alternative charting
