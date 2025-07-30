@@ -263,7 +263,7 @@ python test_api_client.py
 docker ps | grep neo4j
 
 # Restart services
-docker-compose restart neo4j
+docker compose restart neo4j
 ```
 
 **2. OpenAI API Key Issues**
@@ -277,8 +277,6 @@ cat .env | grep OPENAI_API_KEY
 
 **3. Document Processing Errors**
 ```bash
-# Check logs
-tail -f logs/system.log
 
 # Validate configuration
 python validate_config.py
@@ -292,18 +290,6 @@ docker stats
 # Reduce chunk size if needed
 CHUNK_SIZE=400
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
@@ -333,7 +319,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Expected Performance
 - **Response Time**: 2-5 seconds per query
-- **Accuracy**: High with proper source citations
 - **Context**: Maintains conversation history
 - **Sources**: Shows relevant document sections
 
