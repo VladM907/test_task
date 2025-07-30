@@ -1,4 +1,4 @@
-# 🤖 Advanced RAG System with Knowledge Graphs
+# 🤖 RAG System with Knowledge Graphs
 
 A production-ready Retrieval-Augmented Generation (RAG) system that combines vector similarity search with knowledge graph enhancement for intelligent document Q&A. Features hybrid retrieval, multiple LLM providers, and both REST API and web UI interfaces.
 
